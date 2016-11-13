@@ -3,7 +3,7 @@ package com.ljs.test;
 public class Test {
 	
 	public static void main(String[] args) {
-		testMaxLength_3();
+		testMaxLength_4();
 	}
 	
 	public static void testMaxLength_1(){
