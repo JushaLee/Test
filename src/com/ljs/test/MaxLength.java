@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class MaxLength {
 
-	public static int maxLength(String str) {
+	public int maxLength(String str) {
 		if (str == null || str.equals("")) {
 			return 0;
 		}
@@ -32,12 +32,6 @@ public class MaxLength {
 			maxLength = after - pre;
 		}
 		return maxLength;
-	}
-
-	public static void main(String[] args) {
-		String str = "abcabcbb";
-		System.out.println(maxLength(str));
-
 	}
 
 }
